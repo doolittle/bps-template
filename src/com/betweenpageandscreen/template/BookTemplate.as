@@ -1,5 +1,6 @@
 package com.betweenpageandscreen.template {
 
+import com.betweenpageandscreen.binding.config.BookConfig;
 import com.betweenpageandscreen.binding.events.BookEvent;
 import com.betweenpageandscreen.binding.bootstrapper.Bootstrapper;
 import com.betweenpageandscreen.binding.models.Pages;
@@ -44,7 +45,7 @@ public class BookTemplate extends Sprite {
     // for all 17 markers, but you can add custom strings
     // or your own types of pages (dig into bps-binding for how).
     var i:Number = -1;
-    while (++i < 17) {
+    while (++i < BookConfig.NUM_MARKERS) {
       Pages.PAGES.push(epistle);
     }
 
