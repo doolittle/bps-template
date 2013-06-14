@@ -41,13 +41,15 @@ public class BookTemplate extends Sprite {
     var epistle = new Epistle(dear_s);
 
     // Set up pages. Here we're using the same text
-    // for all 17 markers, but you can you want.
+    // for all 17 markers, but you can add custom strings
+    // or your own types of pages (dig into bps-binding for how).
     var i:Number = -1;
     while (++i < 17) {
       Pages.PAGES.push(epistle);
     }
 
-    // Create new bootstrapper from the BPS Binder library
+    // Create new bootstrapper from the BPS Binder library.
+    // The bootstrapper will take care of setting up the interface. 
     bootstrapper = new Bootstrapper(this);
 
     // Set listeners on bootstrapper. You may want to handle these with UI elements.
