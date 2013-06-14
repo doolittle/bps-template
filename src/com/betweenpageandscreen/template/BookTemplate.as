@@ -49,7 +49,7 @@ public class BookTemplate extends Sprite {
     }
 
     // Create new bootstrapper from the BPS Binder library.
-    // The bootstrapper will take care of setting up the interface. 
+    // The bootstrapper will take care of setting up the interface.
     bootstrapper = new Bootstrapper(this);
 
     // Set listeners on bootstrapper. You may want to handle these with UI elements.

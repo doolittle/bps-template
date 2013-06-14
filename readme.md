@@ -1,5 +1,5 @@
 Template to create a project like [Between Page and Screen](http://betweenpageandscreen.com/). Uses the
-[bps-binding](https://github.com/doolittle/bps-binding) library to bootstrap to ready-to-use project.
+[bps-binding](https://github.com/doolittle/bps-binding) library to bootstrap a ready-to-use project.
 
 In your Flash project, include libs/BPS-Binding.swc. That should have all the external libraries that you'll need.
 
