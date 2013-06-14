@@ -5,19 +5,7 @@
       <configuration name="BPS-Template" pure-as="true" main-class="BPSTemplate" output-file="BPSTemplate.swf" output-folder="$MODULE_DIR$/out/production/BPS-Template" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
         <dependencies target-player="11.1">
           <entries>
-            <entry library-id="3722dcf9-94e9-4d97-bd53-5d25a330a7cf">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="5937f10d-65ef-4ed7-bfd1-b7f28b21864d">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="47244fa0-7f1a-4e3f-b4e7-45a8403e01ef">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="63a7fb88-32a8-46d8-a3ca-fd9a83f5c647">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="75722d12-7aee-442b-b52d-8e92383ed469">
+            <entry library-id="abc21453-8b5b-4bd1-a44a-7cd2319a3553">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -36,56 +24,13 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <content url="file://$DOCUMENTS$/BetweenPageAndScreen-Binding">
-      <sourceFolder url="file://$DOCUMENTS$/BetweenPageAndScreen-Binding/src" isTestSource="false" />
-    </content>
     <orderEntry type="jdk" jdkName="flex_sdk_4.6" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="3722dcf9-94e9-4d97-bd53-5d25a330a7cf" />
+        <properties id="abc21453-8b5b-4bd1-a44a-7cd2319a3553" />
         <CLASSES>
           <root url="jar://$DOCUMENTS$/BetweenPageAndScreen-Binding/bin/BPS-Binding.swc!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="5937f10d-65ef-4ed7-bfd1-b7f28b21864d" />
-        <CLASSES>
-          <root url="jar://$CLASS_PATH$/Papervision3D_2.1.932.swc!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="47244fa0-7f1a-4e3f-b4e7-45a8403e01ef" />
-        <CLASSES>
-          <root url="file://$DOCUMENTS$/AS3-Utils/src" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="63a7fb88-32a8-46d8-a3ca-fd9a83f5c647" />
-        <CLASSES>
-          <root url="file://$CLASS_PATH$/betweenAS3-trunk/src/fp10" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="75722d12-7aee-442b-b52d-8e92383ed469" />
-        <CLASSES>
-          <root url="jar://$CLASS_PATH$/robotlegs/bin/robotlegs-framework-v1.5.2.swc!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
