@@ -41,6 +41,9 @@ public class BookTemplate extends Sprite {
     //Create a new epistle by passing a text string to it.
     var epistle = new Epistle(dear_s);
 
+    //BookConfig.DEBUG = true;
+    //epistle = new Epistle("Hi!");
+
     // Set up pages. Here we're using the same text
     // for all 17 markers, but you can add custom strings
     // or your own types of pages (dig into bps-binding for how).
