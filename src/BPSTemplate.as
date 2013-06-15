@@ -19,12 +19,14 @@ public class BPSTemplate extends Sprite {
 
     removeEventListener(Event.ADDED_TO_STAGE, init);
 
+    //Set up stage.
     stage.scaleMode = StageScaleMode.NO_SCALE;
     stage.align = StageAlign.TOP_LEFT;
 
     stage.quality = BookConfig.QUALITY;
     stage.frameRate = BookConfig.FPS;
 
+    // Add app to stage, self-inits
     addChild( new BookTemplate());
 
   }

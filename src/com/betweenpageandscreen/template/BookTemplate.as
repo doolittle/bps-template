@@ -58,7 +58,7 @@ public class BookTemplate extends Sprite {
 
     // Set listeners on bootstrapper. You may want to handle these with UI elements.
     // You could also tie this into a micro-architecture like robotlegs.
-    // To keep it simple and un-opinionated, this demo just traces out the events
+    // To keep it simple, this demo just traces out the events
     // without building an interface.
     bootstrapper.addEventListener(BookEvent.BOOTSTRAP_STATUS, update_status);
     bootstrapper.addEventListener(BookEvent.BOOTSTRAP_ERROR, bootstrap_error);

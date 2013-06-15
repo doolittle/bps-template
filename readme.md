@@ -8,4 +8,3 @@ In the project-templates folder, you'll find an example file for a
 
 If you're using Jetbrains, Sublime, or others to compile the SWF, you may need to download the
 [Flex SDK](http://www.adobe.com/devnet/flex/flex-sdk-download.html).
-
